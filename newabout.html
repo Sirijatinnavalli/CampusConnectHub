@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About us Page</title>
+    <style>
+         * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+}
+
+/* Header styles */
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	background-color: #333;
+	color: white;
+	height: 4rem;
+}
+nav {
+	width: 30rem;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav ul li a {
+	font-size: 1.2rem;
+	padding: 1rem;
+	text-decoration: none;
+	color: white;
+}
+
+nav ul li a:hover {
+	background-color: #000602;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.reachUs-button {
+	padding: 1rem;
+	background-color: #010b03;
+	border: none;
+	color: white;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.reachUs-button:hover{
+	background-color: #000501;
+}
+footer {
+	padding: 20px;
+	text-align: center;
+	background-color: #333;
+	color: white;
+}
+
+main {
+    background-image: url('https://png.pngtree.com/background/20210717/original/pngtree-college-student-graduation-celebration-cartoon-background-picture-image_1428648.jpg'); /* Add your background image path here */
+    background-size: cover;
+    background-position: center;
+    color: #272343; /* Customize the text color */
+    padding: 40px;
+    text-align: center;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+
+	#nav-menu {
+		position: absolute;
+		top: 4rem;
+		left: 0;
+		background-color: #333;
+		width: 100%;
+		display: none;
+	}
+
+	#nav-menu.active {
+		display: block;
+		flex-direction: row;
+		padding: 1rem;
+	}
+}
+.container {
+            padding: 20px;
+        }
+
+        /* Style the "About Us" section */
+        .about-section {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!--img src="https://www.pvpsiddhartha.ac.in/new_images/head.jpg" width="100%" height="auto"-->
+    <!-- Header section -->
+	<header>
+		<nav id="nav-menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="newhome.html">Events</a></li>
+				<li><a href="newabout.html">About</a></li>
+				<li><a href="c.html">Contact Us</a></li>
+				<li><a href="login.html">Login</a></li>
+<li><a href="eventforms.html">EVENT FORMS</a></li>
+			</ul>
+		</nav>
+		<!--button class="reachUs-button">Call us</button-->
+	</header>
+	<main>
+    <div class="container">
+        <div class="about-section">
+            <h2>Welcome to CampusConnectHub</h2>
+            <p>We are dedicated to bringing exciting and memorable events to our college community. Our team of passionate students works tirelessly to organize and promote a wide range of activities that cater to various interests.
+            Whether it's academic seminars, cultural festivals, sports competitions, or social gatherings, we aim to create opportunities for students to learn, grow,and have fun.
+			Join us in celebrating the vibrant spirit of college life.Explore our upcoming events,grt involved in planning,or simply attend and enjoy the experiences that are prepared for you.</p>
+            <p>Thank you for being a part of CampusConnectHub .Let's create unforgettable memories together!</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+    
+        <div class="about-section">
+			<br>
+            <h2>Our Mission<br></h2>
+            <p>Our mission is to foster a vibrant and inclusive college experience by organizing events that encourage participation, creativity, and camaraderie. We believe that these experiences are essential for personal and academic development.
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. The release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</p>
+        </div>
+    </div>
+	</main>
+	<!-- Footer section -->
+	<footer>
+		<p>© 2023 CampusConnectHub. All rights reserved.</p>
+	</footer>
+</body>
+
+</html>
